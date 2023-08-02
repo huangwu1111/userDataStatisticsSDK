@@ -1,0 +1,280 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "userDataStatisticsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FirstSDKTest",
+        "printedName": "FirstSDKTest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FirstSDKTest",
+                "printedName": "userDataStatisticsSDK.FirstSDKTest",
+                "usr": "c:@M@userDataStatisticsSDK@objc(cs)FirstSDKTest"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@userDataStatisticsSDK@objc(cs)FirstSDKTest(im)init",
+            "mangledName": "$s21userDataStatisticsSDK12FirstSDKTestCACycfc",
+            "moduleName": "userDataStatisticsSDK",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "test",
+            "printedName": "test(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@userDataStatisticsSDK@objc(cs)FirstSDKTest(im)testWith:",
+            "mangledName": "$s21userDataStatisticsSDK12FirstSDKTestC4test4withSSSi_tF",
+            "moduleName": "userDataStatisticsSDK",
+            "objc_name": "testWith:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "study",
+            "printedName": "study()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@userDataStatisticsSDK@objc(cs)FirstSDKTest(cm)study",
+            "mangledName": "$s21userDataStatisticsSDK12FirstSDKTestC5studyyyFZ",
+            "moduleName": "userDataStatisticsSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@userDataStatisticsSDK@objc(cs)FirstSDKTest",
+        "mangledName": "$s21userDataStatisticsSDK12FirstSDKTestC",
+        "moduleName": "userDataStatisticsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "userDataStatisticsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Student",
+        "printedName": "Student",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Student",
+                "printedName": "userDataStatisticsSDK.Student",
+                "usr": "s:21userDataStatisticsSDK7StudentC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21userDataStatisticsSDK7StudentCACycfc",
+            "mangledName": "$s21userDataStatisticsSDK7StudentCACycfc",
+            "moduleName": "userDataStatisticsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "study",
+            "printedName": "study(subject:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21userDataStatisticsSDK7StudentC5study7subjectS2S_tF",
+            "mangledName": "$s21userDataStatisticsSDK7StudentC5study7subjectS2S_tF",
+            "moduleName": "userDataStatisticsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21userDataStatisticsSDK7StudentC",
+        "mangledName": "$s21userDataStatisticsSDK7StudentC",
+        "moduleName": "userDataStatisticsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/userDataStatistics-用户数据统计\/userDataStatisticsSDK\/userDataStatisticsSDK\/FirstSDKTest.swift",
+      "kind": "StringLiteral",
+      "offset": 317,
+      "length": 36,
+      "value": "\"great job \""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/userDataStatistics-用户数据统计\/userDataStatisticsSDK\/userDataStatisticsSDK\/FirstSDKTest.swift",
+      "kind": "StringLiteral",
+      "offset": 334,
+      "length": 8,
+      "value": "\" 😄😄=====😄\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/userDataStatistics-用户数据统计\/userDataStatisticsSDK\/userDataStatisticsSDK\/FirstSDKTest.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 19,
+      "value": "\"this is first day\""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/userDataStatistics-用户数据统计\/userDataStatisticsSDK\/userDataStatisticsSDK\/Student.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 26,
+      "value": "\"student study \""
+    },
+    {
+      "filePath": "\/Users\/whqpmac007\/Documents\/没传到git的项目\/userDataStatistics-用户数据统计\/userDataStatisticsSDK\/userDataStatisticsSDK\/Student.swift",
+      "kind": "StringLiteral",
+      "offset": 255,
+      "length": 1,
+      "value": "\"\""
+    }
+  ]
+}

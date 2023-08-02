@@ -1,0 +1,11 @@
+framework module userDataStatisticsSDK {
+  umbrella header "userDataStatisticsSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module userDataStatisticsSDK.Swift {
+  header "userDataStatisticsSDK-Swift.h"
+  requires objc
+}
